@@ -1,0 +1,41 @@
+.container {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card_img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #bdbaba;
+    padding: 8px;
+    box-shadow: 8px 8px 10px 0 rgba(110, 108, 108, 0.2);
+}
+
+.card_content {
+    border: 1px solid #bdbaba;
+    padding: 5px 8%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.fact {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.card_footer {
+    font-size: 14px;
+}
